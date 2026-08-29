@@ -114,7 +114,8 @@ section.hero .img-over {
     line-height: 1.05em;
     font-size: 5rem;
     letter-spacing: .5px;
-    color: var(--green);
+    color: var(--white);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .home .hero .img-top.img-left { height: 45vh; }
@@ -123,9 +124,10 @@ section.hero .img-over {
 .home .hero .img-bottom.img-right { height: 60vh; }
 
 .home .date {
-    color: var(--green);
+    color: var(--white);
     font-size: 2.2rem;
     margin-top: 2rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .rsvp {
