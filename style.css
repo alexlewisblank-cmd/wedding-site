@@ -78,10 +78,10 @@ h1 a:hover {
     color: var(--red);
 }
 
-/* Updated Hero Section with Gradient Background */
+/* Background Image restored with dark overlay for text contrast */
 section.hero {
     background-color: var(--beige);
-    background-image: linear-gradient(135deg, #FAF8F5 0%, #EFEBF2 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('assets/lavender-hero.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -117,16 +117,16 @@ section.hero .img-over {
     font-size: 4.5rem;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: var(--text);
-    text-shadow: none;
+    color: var(--white);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .home .fancy-subtitle {
     font-family: 'Amalfi-Coast', cursive, sans-serif;
     font-size: 3.5rem;
-    color: var(--green);
+    color: var(--white);
     margin-bottom: 0.5rem;
-    text-shadow: none;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
     line-height: 1.2;
 }
 
@@ -136,12 +136,12 @@ section.hero .img-over {
 .home .hero .img-bottom.img-right { height: 60vh; }
 
 .home .date {
-    color: var(--text);
+    color: var(--white);
     font-size: 2rem;
     font-weight: 500;
     letter-spacing: 3px;
     margin-top: 1.5rem;
-    text-shadow: none;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .rsvp {
