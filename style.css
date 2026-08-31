@@ -78,10 +78,10 @@ h1 a:hover {
     color: var(--red);
 }
 
-/* Background Image added here */
+/* Updated Hero Section with Gradient Background */
 section.hero {
     background-color: var(--beige);
-    background-image: linear-gradient(rgba(250, 248, 245, 0.4), rgba(250, 248, 245, 0.6)), url('assets/lavender-hero.jpg');
+    background-image: linear-gradient(135deg, #FAF8F5 0%, #EFEBF2 100%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -117,16 +117,16 @@ section.hero .img-over {
     font-size: 4.5rem;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: var(--white);
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    color: var(--text);
+    text-shadow: none;
 }
 
 .home .fancy-subtitle {
     font-family: 'Amalfi-Coast', cursive, sans-serif;
     font-size: 3.5rem;
-    color: var(--white);
+    color: var(--green);
     margin-bottom: 0.5rem;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    text-shadow: none;
     line-height: 1.2;
 }
 
@@ -136,12 +136,12 @@ section.hero .img-over {
 .home .hero .img-bottom.img-right { height: 60vh; }
 
 .home .date {
-    color: var(--white);
+    color: var(--text);
     font-size: 2rem;
     font-weight: 500;
     letter-spacing: 3px;
     margin-top: 1.5rem;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    text-shadow: none;
 }
 
 .rsvp {
@@ -226,8 +226,9 @@ p.details a:hover, .column a:hover {
     color: var(--red);
 }
 
+/* Soft Lavender Tint for Alternative Sections */
 section.alt {
-    background-color: var(--beige);
+    background-color: #F2EEF5;
     padding: 12rem 10em;
 }
 
