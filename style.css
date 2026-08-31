@@ -318,6 +318,8 @@ div.navigation {
     flex-direction: row;
     height: 70px;
     bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 4;
 }
 
