@@ -404,7 +404,7 @@ div.navigation a.logo:hover .test { opacity: 100%; }
 .internal section.hero { padding: 0em 10em; }
 .internal h1 { z-index: 1; font-weight: 600; }
 
-#accomodations .bigtext { margin-bottom: 2rem; }
+#accomodations .bigtext { margin-bottom: 3rem; }
 
 .columns {
     display: flex;
@@ -466,7 +466,7 @@ p.description {
     justify-content: space-between;
 }
 
-.honeymoon h1 { margin-bottom: 3rem; }
+.honeymoon h1 { margin-bottom: 4rem; }
 
 .honeymoon span.iban {
     display: block;
@@ -634,7 +634,7 @@ p.description {
 
 @media (max-width: 1200px) {
     .home h1 { font-size: 3.5rem; }
-    .home .fancy-subtitle { font-size: 3.5rem; }
+    .home .fancy-subtitle { font-size: 3rem; }
 }
 
 @media (max-width: 992px) {
@@ -646,7 +646,7 @@ p.description {
     .home .hero .img-bottom.img-right { height: 50vh; }
     h1, p.bigtext { font-size: 2.2rem; }
     .video iframe { width: 900px; height: 506px; }
-    section.standard { padding: 3rem; }
+    section.standard { padding: 4rem; }
 }
 
 @media (max-width: 768px) {
@@ -654,14 +654,14 @@ p.description {
     .home .fancy-subtitle { font-size: 2.2rem; }
     .internal section.hero { padding: 0 5rem; }
     .internal .hero .img-bottom.img-right { height: 65vw; width: auto; }
-    section.standard { padding: 2.5rem; }
+    section.standard { padding: 3.5rem; }
     section.video img.img-top.img-left { height: 40vw; }
     section.video img.img-top.img-right { height: 60vw; }
     section.video img.img-bottom.img-left { height: 50vw; }
     section.video img.img-bottom.img-right { height: 25vw; }
     .video iframe { width: 600px; height: 338px; }
     .columns { flex-direction: column; }
-    .columns .column:first-child { margin-bottom: 5rem; }
+    .columns .column:first-child { margin-bottom: 8rem; }
     .column { padding: 0rem; width: 100%; }
     .logo div.test { display: none; }
     .honeymoon span.iban { font-size: 1.3rem; }
@@ -677,21 +677,7 @@ p.description {
     .home .fancy-subtitle { font-size: 1.8rem; }
     .home .bounce { display: none; }
     .home div.rsvp { right: 1rem; bottom: 1rem; z-index: 4; }
-    
-    /* Clean absolute bottom anchor for mobile hero navigation */
-    section.hero {
-        position: relative;
-    }
-    
-    div.navigation, .internal div.navigation {
-        position: absolute !important;
-        bottom: 1.5rem !important;
-        left: 50% !important;
-        transform: translateX(-50%) !important;
-        width: auto !important;
-        margin: 0 !important;
-    }
-
+    .internal .navigation { position: fixed; }
     .internal .logo { position: fixed; top: 1rem; left: 1rem; }
     .internal .rsvp { position: fixed; top: 1rem; right: 1rem; }
     .internal .menu { width: 90vw; font-size: 0.9rem; height: 50px; }
@@ -699,7 +685,6 @@ p.description {
     .home section.gift .img-bottom.img-left { height: 0vw; }
     .home section.gift .img-bottom.img-right { height: 70vw; }
 }
-  
 
 a[href^="tel"] {
     color: inherit;
