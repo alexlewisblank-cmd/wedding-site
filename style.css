@@ -678,20 +678,20 @@ p.description {
     .home .bounce { display: none; }
     .home div.rsvp { right: 1rem; bottom: 1rem; z-index: 4; }
     
-    /* Updated navigation positioning for portrait mobile screens to avoid clipping and overlap */
-    div.navigation {
-        position: sticky;
-        bottom: 1rem;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        transform: none;
-        left: auto;
-        width: 90vw;
-        max-width: 400px;
-        padding-bottom: env(safe-area-inset-bottom, 0px);
+    /* Clean absolute bottom anchor for mobile hero navigation */
+    section.hero {
+        position: relative;
     }
     
-    .internal .navigation { position: sticky; bottom: 1rem; transform: none; left: auto; }
+    div.navigation, .internal div.navigation {
+        position: absolute !important;
+        bottom: 1.5rem !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        width: auto !important;
+        margin: 0 !important;
+    }
+
     .internal .logo { position: fixed; top: 1rem; left: 1rem; }
     .internal .rsvp { position: fixed; top: 1rem; right: 1rem; }
     .internal .menu { width: 90vw; font-size: 0.9rem; height: 50px; }
@@ -699,6 +699,7 @@ p.description {
     .home section.gift .img-bottom.img-left { height: 0vw; }
     .home section.gift .img-bottom.img-right { height: 70vw; }
 }
+  
 
 a[href^="tel"] {
     color: inherit;
