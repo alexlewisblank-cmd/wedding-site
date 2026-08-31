@@ -634,7 +634,7 @@ p.description {
 
 @media (max-width: 1200px) {
     .home h1 { font-size: 3.5rem; }
-    .home .fancy-subtitle { font-size: 3rem; }
+    .home .fancy-subtitle { font-size: 3.5rem; }
 }
 
 @media (max-width: 992px) {
@@ -677,7 +677,21 @@ p.description {
     .home .fancy-subtitle { font-size: 1.8rem; }
     .home .bounce { display: none; }
     .home div.rsvp { right: 1rem; bottom: 1rem; z-index: 4; }
-    .internal .navigation { position: fixed; }
+    
+    /* Updated navigation positioning for portrait mobile screens to avoid clipping and overlap */
+    div.navigation {
+        position: sticky;
+        bottom: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        transform: none;
+        left: auto;
+        width: 90vw;
+        max-width: 400px;
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+    }
+    
+    .internal .navigation { position: sticky; bottom: 1rem; transform: none; left: auto; }
     .internal .logo { position: fixed; top: 1rem; left: 1rem; }
     .internal .rsvp { position: fixed; top: 1rem; right: 1rem; }
     .internal .menu { width: 90vw; font-size: 0.9rem; height: 50px; }
