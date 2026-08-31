@@ -81,8 +81,7 @@ h1 a:hover {
 /* Background Image restored with dark overlay for text contrast */
 section.hero {
     background-color: var(--beige);
-    /* Darker 0.6 opacity at the top, fading to a lighter 0.1 in the middle, and 0.4 at the bottom */
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.15) 45%, rgba(0, 0, 0, 0.4) 100%), url('assets/lavender-hero.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('assets/lavender-hero.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
