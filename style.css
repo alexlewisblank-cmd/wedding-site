@@ -55,7 +55,7 @@ div {
 
 section {
     overflow: hidden;
-    min-height: 90vh;
+    min-height: 80vh;
 }
 
 h1,
@@ -89,7 +89,7 @@ section.hero {
 }
 
 section.standard {
-    padding: 12rem;
+    padding: 4rem 12rem;
     z-index: 2;
     background-color: var(--white);
 }
@@ -164,7 +164,7 @@ section.hero .img-over {
 }
 
 div.box {
-    padding: 6rem;
+    padding: 4rem;
 }
 
 h1, p.bigtext {
@@ -193,13 +193,13 @@ div.divider {
 }
 
 div.divider.top {
-    margin-bottom: 5rem;
-    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
 }
 
 div.divider.bottom {
-    margin-bottom: 2rem;
-    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
 }
 
 p.subtext {
@@ -229,11 +229,11 @@ p.details a:hover, .column a:hover {
 /* Soft Lavender Tint for Alternative Sections */
 section.alt {
     background-color: #F2EEF5;
-    padding: 12rem 10em;
+    padding: 4rem 10em;
 }
 
 .video iframe {
-    margin-top: 3rem;
+    margin-top: 2rem;
     width: 90%;
     box-shadow: var(--shadow-1-elevation-high);
     width: 1100px;
@@ -267,17 +267,17 @@ p.bigtext a:hover, p.hugetext a:hover, p.subtext a:hover {
 }
 
 img.img-remark { width: 40vw; }
-img.remark-top { margin-bottom: 5rem; }
+img.remark-top { margin-bottom: 3rem; }
 
 a.button {
     font-family: 'Work Sans', sans-serif;
     font-size: 1.1rem;
     font-weight: 500;
-    margin-top: 3rem;
+    margin-top: 2rem;
     text-decoration: none;
     color: var(--white);
     background: var(--green);
-    padding: 18px 32px;
+    padding: 16px 28px;
     border-radius: 500px;
     display: inline-block;
     box-shadow: var(--shadow-1-elevation-medium);
@@ -404,7 +404,7 @@ div.navigation a.logo:hover .test { opacity: 100%; }
 .internal section.hero { padding: 0em 10em; }
 .internal h1 { z-index: 1; font-weight: 600; }
 
-#accomodations .bigtext { margin-bottom: 3rem; }
+#accomodations .bigtext { margin-bottom: 2rem; }
 
 .columns {
     display: flex;
@@ -437,7 +437,7 @@ p.description {
 .column a {
     color: var(--green);
     text-decoration: none;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 #location .description {
@@ -466,7 +466,7 @@ p.description {
     justify-content: space-between;
 }
 
-.honeymoon h1 { margin-bottom: 4rem; }
+.honeymoon h1 { margin-bottom: 3rem; }
 
 .honeymoon span.iban {
     display: block;
@@ -646,7 +646,7 @@ p.description {
     .home .hero .img-bottom.img-right { height: 50vh; }
     h1, p.bigtext { font-size: 2.2rem; }
     .video iframe { width: 900px; height: 506px; }
-    section.standard { padding: 8rem; }
+    section.standard { padding: 3rem; }
 }
 
 @media (max-width: 768px) {
@@ -654,14 +654,14 @@ p.description {
     .home .fancy-subtitle { font-size: 2.2rem; }
     .internal section.hero { padding: 0 5rem; }
     .internal .hero .img-bottom.img-right { height: 65vw; width: auto; }
-    section.standard { padding: 5rem; }
+    section.standard { padding: 2.5rem; }
     section.video img.img-top.img-left { height: 40vw; }
     section.video img.img-top.img-right { height: 60vw; }
     section.video img.img-bottom.img-left { height: 50vw; }
     section.video img.img-bottom.img-right { height: 25vw; }
     .video iframe { width: 600px; height: 338px; }
     .columns { flex-direction: column; }
-    .columns .column:first-child { margin-bottom: 8rem; }
+    .columns .column:first-child { margin-bottom: 5rem; }
     .column { padding: 0rem; width: 100%; }
     .logo div.test { display: none; }
     .honeymoon span.iban { font-size: 1.3rem; }
