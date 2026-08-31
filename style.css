@@ -121,6 +121,15 @@ section.hero .img-over {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
+.home .fancy-subtitle {
+    font-family: 'Amalfi-Coast', cursive, sans-serif;
+    font-size: 3.5rem;
+    color: var(--white);
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    line-height: 1.2;
+}
+
 .home .hero .img-top.img-left { height: 45vh; }
 .home .hero .img-top.img-right { height: 45vh; }
 .home .hero .img-bottom.img-left { height: 60vh; }
@@ -624,10 +633,12 @@ p.description {
 
 @media (max-width: 1200px) {
     .home h1 { font-size: 3.5rem; }
+    .home .fancy-subtitle { font-size: 3rem; }
 }
 
 @media (max-width: 992px) {
     .home h1 { font-size: 2.8rem; }
+    .home .fancy-subtitle { font-size: 2.5rem; }
     .home .hero .img-top.img-left { height: 40vh; }
     .home .hero .img-top.img-right { height: 40vh; }
     .home .hero .img-bottom.img-left { height: 50vh; }
@@ -639,6 +650,7 @@ p.description {
 
 @media (max-width: 768px) {
     h1, p.bigtext, p.hugetext { font-size: 1.8rem; }
+    .home .fancy-subtitle { font-size: 2.2rem; }
     .internal section.hero { padding: 0 5rem; }
     .internal .hero .img-bottom.img-right { height: 65vw; width: auto; }
     section.standard { padding: 5rem; }
@@ -661,6 +673,7 @@ p.description {
     .home section.hero .img-bottom.img-left { height: 0vw; }
     .home section.hero .img-bottom.img-right { height: 75vw; }
     .home h1 { font-size: 2rem; }
+    .home .fancy-subtitle { font-size: 1.8rem; }
     .home .bounce { display: none; }
     .home div.rsvp { right: 1rem; bottom: 1rem; z-index: 4; }
     .internal .navigation { position: fixed; }
