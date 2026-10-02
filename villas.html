@@ -16,6 +16,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" media="all">
     <script src="https://kit.fontawesome.com/3b059272ba.js" crossorigin="anonymous"></script>
+    <style>
+        /* Mobile text-squishing fix */
+        @media (max-width: 600px) {
+            .standard {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+            .villa-card {
+                padding: 1.5rem 1.25rem !important;
+            }
+        }
+    </style>
 </head>
 
 <body class="internal">
@@ -34,17 +46,17 @@
     </section>
 
     <section class="standard" id="villa-info">
-        <div style="max-width: 800px; margin: 0 auto; width: 100%; padding: 0 1rem; box-sizing: border-box;">
+        <div style="max-width: 850px; margin: 0 auto; width: 100%;">
             <p class="bigtext">
                 You're staying with us on-site!
             </p>
-            <p class="description" style="margin-top: 1.5rem; text-align: center; font-size: 1.1rem; line-height: 1.6;">
+            <p class="description" style="margin-top: 1.5rem; text-align: center; font-size: 1.1rem; line-height: 1.6; padding: 0 10px;">
                 We're so excited to have you staying right at the venue with us. Enjoy the views of the lavender fields and mountains right from your door.
             </p>
             <div class="divider bottom"></div>
 
             <!-- Stay Details Card -->
-            <div style="background-color: var(--white); padding: 2rem 2.5rem; border-radius: 8px; box-shadow: var(--shadow-1-elevation-medium); text-align: left; margin-top: 2.5rem;">
+            <div class="villa-card" style="background-color: var(--white); padding: 2rem 2.5rem; border-radius: 8px; box-shadow: var(--shadow-1-elevation-medium); text-align: left; margin-top: 2.5rem;">
                 <p class="smalldetail">Schedule &amp; Location</p>
                 <div class="divider"></div>
                 <h3 style="margin-top: 10px;">Stay Details</h3>
@@ -60,7 +72,7 @@
             </div>
 
             <!-- Good to Know Card -->
-            <div style="background-color: var(--white); padding: 2rem 2.5rem; border-radius: 8px; box-shadow: var(--shadow-1-elevation-medium); text-align: left; margin-top: 2rem;">
+            <div class="villa-card" style="background-color: var(--white); padding: 2rem 2.5rem; border-radius: 8px; box-shadow: var(--shadow-1-elevation-medium); text-align: left; margin-top: 2rem;">
                 <p class="smalldetail">Important Notes</p>
                 <div class="divider"></div>
                 <h3 style="margin-top: 10px;">Good to Know</h3>
